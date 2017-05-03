@@ -1,0 +1,61 @@
+                        ___________________
+                      _( BELIEFS: / GOALS: )_
+                   __(           /           )_
+                  ( best(emacs)./ use(emacs).__)
+                   (__         /           _)
+                      (_______/___________)
+
+                          O
+          ----------    o       ____  ___    _    _
+          \___{A}__/  .        / ___|/ _ \  / \  | |
+         ,`---------`         | |  _| | | |/ _ \ | |
+        (    .   .   )        | |_| | |_| / ___ \| |___
+         |     _\   |          \____|\___/_/   \_\_____|
+          \    __  /      AGENT-ORIENTED PROGRAMMING LANGUAGE
+            \_____'
+
+
+======================================================================
+
+                   -------------------------------
+                     GOAL APL Mode for GNU Emacs
+                   -------------------------------
+
+GOAL is an agent-oriented programming language which can be used to
+write multi-agent systems for solving problems in an environment [1].
+It's main development environment is based on Eclipse, which is
+lacking in both customizability and parentheses ;), so this major mode
+provides simple syntax highlighting for GOAL files to improve the
+writing and reading of GOAL code in GNU Emacs.
+
+[1]: https://goalapl.atlassian.net/wiki
+
+
+                                USAGE
+
+To use this major mode, simply download the goal-apl-mode.el file and
+put it somewhere it will be loaded. For example put it in
+~/.emacs.d/lisp and then add a line like the following to your init
+file (e.g. ~/.emacs):
+
+    (add-to-list 'load-path "~/.emacs.d/lisp")
+
+Next up require the goal-apl-mode in your init file:
+
+    (require 'goal-apl-mode)
+
+The mode will now be loaded whenever you open any GOAL files, and
+you'll be able to enjoy syntax highlighting on all your code!
+
+
+                             LIMITATIONS
+
+This mode is still very much a work in progress, for example it might
+miss some syntax constructs and automatic indentation has not yet been
+implemented.
+
+
+                               COPYING
+
+This file is distributed under the GPL version 3 or (at your option)
+any later version, for more information see the file COPYING.
