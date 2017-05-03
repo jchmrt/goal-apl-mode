@@ -26,7 +26,8 @@ write multi-agent systems for solving problems in an environment [1].
 It's main development environment is based on Eclipse, which is
 lacking in both customizability and parentheses ;), so this major mode
 provides simple syntax highlighting for GOAL files to improve the
-writing and reading of GOAL code in GNU Emacs.
+writing and reading of GOAL code in GNU Emacs. To see an example of
+how it looks, view the example.png file.
 
 [1]: https://goalapl.atlassian.net/wiki
 
