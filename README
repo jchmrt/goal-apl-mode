@@ -32,6 +32,15 @@ how it looks, view the example.png file.
 [1]: https://goalapl.atlassian.net/wiki
 
 
+                               FEATURES
+
+GOAL APL Mode currently features syntax highlighting and the ability
+to highlight occurences of the same variable as the one at the current
+point in the same GOAL statement. This is useful for quickly spotting
+typos and understanding how the variable is bound in that statement.
+
+
+
                                 USAGE
 
 To use this major mode, simply download the goal-apl-mode.el file and
@@ -46,7 +55,16 @@ Next up require the goal-apl-mode in your init file:
     (require 'goal-apl-mode)
 
 The mode will now be loaded whenever you open any GOAL files, and
-you'll be able to enjoy syntax highlighting on all your code!
+you'll be able to enjoy syntax highlighting on all your code! By
+default highlighting occurences of the variable at the point is turned
+on, to turn it off simply:
+
+    M-x customize-variable RET goal-apl-highlight-variable-p
+
+or turn it off manually in your init file by adding the following
+line:
+
+    (setq goal-apl-highlight-variable-p nil)
 
 
                              LIMITATIONS
